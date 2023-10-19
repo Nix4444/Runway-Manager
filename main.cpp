@@ -35,6 +35,28 @@ public:
     }
 };
 
+class Aircraft
+{
+private:
+    /* data */
+public:
+ int Aircraft_Id;
+ char type; 
+ int priority;
+ char action;
+ int takeoff();
+ int Landing();
+};
+
+int Aircraft::takeoff()
+{
+    
+}
+
+int Aircraft:: Landing()
+{
+}
+
 int main(int argc, char const *argv[])
 {
     

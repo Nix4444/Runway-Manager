@@ -35,13 +35,11 @@ public:
     }
 };
 
-class Aircraft
+class Aircraft:public Fleet
 {
-private:
-    /* data */
+
 public:
- int Aircraft_Id;
- char type; 
+ int Aircraft_Id; 
  int priority;
  char action;
  int takeoff();

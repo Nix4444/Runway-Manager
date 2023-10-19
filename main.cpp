@@ -1,12 +1,6 @@
 #include<iostream>
 using namespace std;
 
-<<<<<<< Updated upstream
-int main()
-{
-    /* code */
-    cout<<"Hello World";
-=======
 class Fleet {
 public:
     int fleet[24];
@@ -44,6 +38,5 @@ public:
 int main(int argc, char const *argv[])
 {
     
->>>>>>> Stashed changes
     return 0;
 }

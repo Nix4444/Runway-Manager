@@ -116,7 +116,7 @@ int Aircraft::landing() {
     }
 }
 
-int main(int argc, char const *argv[]) {     
+int main() {     
     int x;
     int temp;
     char type;
